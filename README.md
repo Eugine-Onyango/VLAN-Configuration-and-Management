@@ -15,3 +15,19 @@ Tools Used:
 Cisco Packet Tracer
 
 Switching & Routing Logic
+
+
+
+Sprint 3, 4 & 5 Complete!  (Project Finished)
+
+IP Addressing: Assigned static IPv4 addresses to all End Devices (192.168.10.x for Red Zone, 192.168.20.x for Blue Zone).
+
+Access Ports: Configured specific switch ports (fa0/1 and fa0/2) to switchport mode access and assigned them to their respective VLANs.
+
+802.1Q Trunking: Connected the two switches via a Gigabit crossover cable and configured the ports to switchport mode trunk, allowing tagged frames from multiple VLANs to cross the inter-switch link.
+
+Security & Connectivity Verification: Conducted ICMP Ping tests.
+
+✅ Success: End devices in the same VLAN could successfully ping each other across the trunk link.
+
+Secured: End devices in different VLANs resulted in "Request timed out", proving network isolation and security boundaries are fully operational.
